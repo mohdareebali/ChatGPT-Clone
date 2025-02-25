@@ -49,7 +49,7 @@ echo "MONGO_URI=your_mongodb_connection_string" >> .env
 ```
 # Start the backend
 ```sh
-python main.py &
+python main.py 
 ```
 # Start the frontend
 ```sh
