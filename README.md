@@ -35,6 +35,13 @@ pip install -r requirements.txt
 ```sh
 npm install
 ```
+## ⚙️ Configuration  
+
+### OpenAI API Key Configuration  
+The **OpenAI API key** is stored in `main.py`. Update `main.py` with your API key as follows:  
+```python
+OPENAI_API_KEY = "your_openai_api_key"
+```
 # Create environment variables
 ```sh
 echo "OPENAI_API_KEY=your_openai_api_key" > .env
